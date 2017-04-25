@@ -1,4 +1,7 @@
-# test coverage for  [synaptic (v1.0.10)](http://synaptic.juancazala.com)  [![npm package](https://img.shields.io/npm/v/npmtest-synaptic.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-synaptic) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-synaptic.svg)](https://travis-ci.org/npmtest/node-npmtest-synaptic)
+# npmtest-synaptic
+
+#### basic test coverage for  [synaptic (v1.0.10)](http://synaptic.juancazala.com)  [![npm package](https://img.shields.io/npm/v/npmtest-synaptic.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-synaptic) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-synaptic.svg)](https://travis-ci.org/npmtest/node-npmtest-synaptic)
+
 #### architecture-free neural network library
 
 [![NPM](https://nodei.co/npm/synaptic.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/synaptic)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-synaptic/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-synaptic/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-synaptic/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-synaptic/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-synaptic/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-synaptic/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-synaptic/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-synaptic/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-synaptic/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-synaptic/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-synaptic/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-synaptic/build/coverage.html/index.html)
 
@@ -103,7 +106,8 @@
         "test:src": "mocha test --require src/synaptic.js ./test",
         "test:travis": "npm run test:mocha:src && npm run build && npm run test:mocha:dist"
     },
-    "version": "1.0.10"
+    "version": "1.0.10",
+    "bin": {}
 }
 ```
 
